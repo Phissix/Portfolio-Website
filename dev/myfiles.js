@@ -17,20 +17,20 @@ function changeImage(img) {
     content.appendChild(image);
 }
 
-var summary_txt = 
+var summary_txt =
     {
         name: "summary.txt",
         type: "txt",
-        text: "My name is Jonathan Ma, I'm a [[b;red;black]Computer Science] and [[b;red;black]Statistics] major with an [[b;red;black]Economics] Minor at [[b;red;black]University of Waterloo]\n\n" +
-              "I'm experienced in [[b;aqua;black]C++/Linux] development from my internships writing clean and scalable code producing high performant applications. My expertise lies in distributed systems, especially in in-memory storage systems or databases.\n In terms of software, I am interested in developing and scaling infrastructure." +
-              "My specialties and interest include:\n"+
-              "[[b;deeppink;black]Distributed Systems, Unix Network Programming, Concurrency, Data Structure] (C++ STL)" +
+        text: "My name is HyunWook Kang, I'm an [[b;red;black]Electrical Engineering] Major with a [[b;red;black]Computer Science] Minor at [[b;red;black]Ryerson University]\n\n" +
+              "I'm experienced in [[b;aqua;black]Python/Linux] development from my internship writing clean and scalable code producing high performant applications. My expertise lies in full stack solutions, especially in user interface programming or databases.\n In terms of software, I am interested in developing and scaling infrastructure. " +
+              "My specialties and interests include:\n"+
+              "[[b;deeppink;black]Full Stack Development, Mobile Development, Unix Network Programming, Concurrency, Data Structures] (C++ STL)" +
               "\n\n"+
-              "When not at work, I enjoy [[b;aqua;black]Web Development] creating unique user experiences like the one you are seeing now. I love tapping into my creativity and create unorthodox design. I pride myself in finding unique ways of representing information and media." +
+              "When not at work, I enjoy [[b;aqua;black]Web and iOS Development] creating unique user experiences like the one you are seeing now. I love tapping into my creativity and creating unorthodox design. I pride myself in finding unique ways of representing information and media." +
               "\n\n"+
-              "I have experience in [[b;aqua;black]finance] and I am interested in statistics. I have a good understanding in [[b;aqua;black]Equity Derivatives] and their valuation models. I was also exposed to [[b;aqua;black]Option Market Making], but I am more interested in learning quantitative approaches to capturing Alpha."+
+              "I have experience in [[b;aqua;black]finance] and I am interested in statistics. I have a good understanding in [[b;aqua;black]Equity Derivatives] and their valuation models. I was also exposed to [[b;aqua;black]deep learning], but I am more interested in learning quantitative approaches to capturing Alpha."+
               "\n\n" +
-              "Finally, I want to improve my leadership and managerial skills, hence I am seeking PM opportunities and data science roles relating to growth, retention, and user behaviour."
+              "Finally, I want to improve my leadership and technical skills, hence I am seeking web/iOS developer opportunities and data science roles relating to growth, retention, and user behaviour."
               +"\n\n"
 
 
@@ -41,17 +41,16 @@ var contact_txt =
     {
         name: "contact.txt",
         type: "txt",
-        text: "E-mail: jonathan.ma[ at ]uwaterloo.ca\n\n" +
-              "LinkedIn: https://www.linkedin.com/pub/jonathan-ma/37/13b/a08\n\n" +
-              "Facebook: https://www.facebook.com/majonathanj\n\n" +
-              "GitHub: https://github.com/JohnnyJohnAndTheFunkyBunch\n"
+        text: "E-mail: hyunwook.kang[ at ]yahoo.com\n\n" +
+              "LinkedIn: https://www.linkedin.com/in/kanghy/\n\n" +
+              "GitHub: https://github.com/Phissix\n"
     };
 
 var resume_pdf =
     {
-        name: "JMA_Resume.pdf",
+        name: "hk_cv_final.pdf",
         type: "pdf",
-        link: "JMA_Resume.pdf"
+        link: "hk_cv_final.pdf"
     };
 
 var resume_txt =
@@ -60,35 +59,38 @@ var resume_txt =
         type: "txt",
         text: "\
 \n********************************************************************************\
-\n                                  Jonathan Ma\
-\njonathan.ma@uwaterloo.ca                                            226.978.3108\
+\n                                  HyunWook Kang\
+\nhyunwook.kang@yahoo.com                                             416.320.6288\
 \n\
-\n3B Honours Mathematics - Computer Science Major, Statistics Major, Econ Minor\
+\nElectrical Engineering Major, CS Minor, Self-taught developer\
 \n********************************************************************************\
 \n\
 \n   Technical Skills: C/C++, Python, Unix/Linux, Bash, Excel VBA\
-\n   Web & Design    : HTML/CSS, Django, PHP, MySQL, Adobe Photoshop\
+\n   Web & Design    : HTML/CSS/Javascript, Flask, Rails 5, PHP, MySQL, Adobe Photoshop\
 \n\
 \n\
 \n***************\
 \nWork Experience\
 \n***************\
 \n   ___________________________________________________________________________\
-\n   LinkedIn\
-\n   Software Engineer Intern - Graph Team\
-\n      - Implemented features in a new generation in memory distributed graph \
-\n        database in C++ \
+\n   Qraft Technologies Inc.\
+\n   Software Developer Intern - Global Solutions\
+\n      - Implemented RESTful web APIs for financial market applications. \
+\n      - Analyzed and processed complex data sets using advanced querying, visualization and analytics tools. \
+\n      - Utilized web scraping tools to extract and organize financial data. \
+\n      - Used machine learning and data mining techniques to optimize a portfolio asset allocation algorithm to 80 percent accuracy. \
 \n   ___________________________________________________________________________\
-\n   Citadel\
-\n   Financial Technology Summer Associate - Option IT\
-\n      - Designed and developed a high performant multithreaded WebSocket/Web \
-\n        server in C++ and its web interface in Javascript serving multiple \
-\n        browser clients \
+\n   First Service Residential\
+\n   Security Concierge\
+\n      - Provided directions and customer service to staff members, residents and visitors as required. \
+\n      - Maintained and monitored all reservation books and work orders. \
+\n      - Coordinated with fire and law enforcement personnel in emergency situations. \
 \n   ___________________________________________________________________________\
-\n   Scotia Capital\
-\n   Financial Engineer - Credit & Equity Derivatives\
-\n      - Developed and improved option modelling tools for equity\
-\n        derivatives traders in C++ and VBA\
+\n   Eden Landscaping\
+\n   Landscaper and Sales Representative\
+\n      - Increased clientele and B2C sales by 20 percent.\
+\n      - Managed and serviced 10+ seasonal landscaping contracts in Peel region.\
+\n      - Operated all ground and gardening equipment safely and efficiently.\
 \n\
 \n********\
 \nResearch\
@@ -100,16 +102,16 @@ var resume_txt =
 \nEducation\
 \n*********\
 \n\
-\n   University of Waterloo\
-\n      - Deans Honours List: 93% Average\
+\n   Ryerson University\
+\n      - Minor in Computer Science\
 "
     };
 
-var welcome_txt = 
+var welcome_txt =
     {
         name: "welcome.txt",
         type: "txt",
-        text: "[[b;aqua;black]Welcome to my Website. My name is Jonathan Ma]\nEnjoy your stay.\n\nPress ` to minimize the terminal. Available commands are:\n" +
+        text: "[[b;aqua;black]Welcome to my Website. My name is HyunWook Kang]\nEnjoy your stay.\n\nPress ` to minimize the terminal. Available commands are:\n" +
               "[[b;red;black]cd], [[b;red;black]ls], [[b;red;black]cat], [[b;red;black]open] (opens file like pdf and jpg)\n"
     };
 
@@ -168,8 +170,8 @@ var art =
         type: "folder",
         kids: [art_1, art_2, art_3, art_4, art_5, art_6, art_7, art_8],
         back: projects,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects/Art~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/Projects/Art~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
                      "SeaMonster.jpg",
@@ -184,31 +186,64 @@ var art =
               }
     };
 
-var predictious =
+var blocipedia =
     {
-        name: "predictious-bot.git",
+        name: "blocipedia.git",
         type: "pdf",
-        link: "https://github.com/JohnnyJohnAndTheFunkyBunch/predictious-bot"
+        link: "https://github.com/Phissix/blocipedia"
     };
-var websocket =
+var keleApiClient =
     {
-        name: "simplewebsocket.git",
+        name: "kele-api-client.git",
         type: "pdf",
-        link: "https://github.com/JohnnyJohnAndTheFunkyBunch/simplewebsocket"
+        link: "https://github.com/Phissix/kele-api-client"
     };
 
-var coding = 
+var bloccit =
+    {
+        name: "bloccit.git",
+        type: "pdf",
+        link: "https://github.com/Phissix/bloccit"
+    };
+
+var climaWeather =
+    {
+        name: "climaWeather.git",
+        type: "pdf",
+        link: "https://github.com/Phissix/ClimaWeather"
+    };
+
+var budgetFlashChat =
+    {
+        name: "budgetFlashChat.git",
+        type: "pdf",
+        link: "https://github.com/Phissix/BudgetFlashChat"
+    };
+
+var todoey =
+    {
+        name: "todoey.git",
+        type: "pdf",
+        link: "https://github.com/Phissix/Todoey"
+    };
+
+var coding =
     {
         name: "Coding",
         type: "folder",
-        kids: [predictious, websocket],
+        kids: [blocipedia, keleApiClient, bloccit, climaWeather, budgetFlashChat, todoey],
         back: projects,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects/Coding~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/Projects/Coding~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
-                            'simplewebsocket.git',
-                            'predictious-bot.git'
+                            'blocipedia.git',
+                            'kele-api-client.git',
+                            'bloccit.git',
+                            'climaWeather.git',
+                            'budgetFlashChat.git',
+                            'todoey.git'
+
                               ]);},
               }
     };
@@ -221,14 +256,14 @@ var aboutme =
         type: "folder",
         kids: [resume_pdf, contact_txt, resume_txt,summary_txt],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/AboutMe~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/AboutMe~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
                               'summary.txt',
                               'resume.txt',
                               'contact.txt',
-                              'JMA_Resume.pdf'
+                              'hk_cv_final.pdf'
                               ]);},
               }
     };
@@ -239,8 +274,8 @@ var projects =
         type: "folder",
         kids: [art, coding],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/Projects~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
                               'Coding',
@@ -255,21 +290,21 @@ var blog =
         type: "folder",
         kids: [],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Blog~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/Blog~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
                               ]);},
               }
     };
-var home = 
+var home =
     {
         name: "Home",
         type: "folder",
         kids: [aboutme, blog, projects, welcome_txt],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/~] ',
-                name:   'jonathan.ma',
+        setg: { prompt: '[[b;lawngreen;black]hyunwook.kang:/~] ',
+                name:   'hyunwook.kang',
                 completion: function(term, string, callback) {
                     callback([
                               'welcome.txt',
